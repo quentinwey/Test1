@@ -186,6 +186,7 @@ elif score >= 60:
 else:
     grade = 'E'
 print('您的成绩级别是:',grade)
+"""
 
 '''
 判断输入的边长能否构成三角形，如果可以，则计算出三角形的周长与面积
@@ -203,4 +204,3 @@ if a + b > c and a + c > b and b + c > a:
     print('面积：%f' %(area))
 else:
     print('不能构成三角形')
-"""
